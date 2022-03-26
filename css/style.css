@@ -1,0 +1,238 @@
+
+body{
+    background-color:rgb(198, 198, 238); 
+    padding-top:10px; 
+    /*for whole body text size we should declare in this section*/
+    font-size: 1em;
+    /*em is a dyanmic font size*/ 
+}
+.head{
+    position: fixed;
+    background-color:lightgreen;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+/*for dyanmic font size we can use percentage*/
+.head-text{
+    font-family:"Merriweatherr";
+    /*this is one of the best for size it does not affect others*/
+    font-size:3rem;/*neglect other and apply only this*/
+   font-style: italic;
+}
+.top-container
+{
+  /* position: relative;*/
+    display: inline-block;
+    background-color:rgb(214, 232, 241);
+    height: 600px;
+    width: 100%;
+    margin: top 20px;
+}
+.top{
+    width: 400px;
+    height: 250px;
+    display: inline-block;
+}
+.rtop{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+   /* position: relative;*/
+}
+.ctext{
+    color: rgb(122, 116, 116);
+    font-style: italic;
+    font-weight: bold;
+    position: relative;
+    bottom: 80px;
+    right: 90px;
+}
+.text{
+   /* display: inline-block;*/
+   /* position: relative;*/
+   font-family: "Helvetica Neue",Helvetica,Arial;
+    font-size:2.5rem;
+    font-weight: bold;
+    color: #215321
+  /*  top: 20px;
+    right: 600px;*/
+}
+p{
+    display: inline;
+    position: relative;
+    bottom: 200px;
+    left: 50px;
+    font-style: italic;
+}
+
+.mount{
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    /*position: relative;
+    bottom: 50px;
+    */
+}
+.himal{
+    display: inline-block;
+    position: relative;
+    font-size:20px;
+    font-style: italic;
+    color:rgb(202, 107, 107);
+    font-weight: bold;
+    bottom: 170px; 
+    right: 300px;
+}
+hr{
+    width:60%;
+    margin-right: 45%;
+    border:dotted 4px;
+    border-bottom:none;
+    color: #abc4cf;
+}
+.middle-container{
+   /*in absolute position it's position is take
+    place by following element*/
+    margin-left: 20px;
+    display: inline-block;
+    background-color:rgb(132, 152, 163);
+    height: 200px;
+    width: 350px;
+}
+.nature{
+    margin: auto 18px auto 18px;
+    height:200px;
+    width: 300px;
+}
+.bottom-container{
+    /*in case of relative it's child element position 
+    are taken from it's corner of container*/
+    display: inline-block;
+   /* position: absolute;*/
+   margin-left: 20px;
+    background-color:rgb(195, 234, 255);
+    height: 200px;
+    width: 350px;
+}
+.red{
+    background-color:red;
+    height: 50px;
+    width: 50px;
+}
+.blue{
+    position: relative;
+    background-color:rgb(13, 43, 143);
+    height: 50px;
+    width: 50px;
+    left: 50px;
+}
+.green{
+    position: relative;
+    background-color:rgb(0, 255, 21);
+    height: 50px;
+    width: 50px;
+    left: 100px;
+   
+}
+/*for second page*/
+.first{
+    position: fixed;
+    background-color:lightcoral;
+    width: 100%;
+    height:60px;
+    text-align: center;
+  
+}
+.second{
+    display: inline-block;
+    position:none;
+}
+.ssc{
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+h2{
+ position: fixed;
+ width:40%;
+
+
+}
+.skills{
+width:70%;
+height: 360px;
+margin:30px auto 30px auto;/*in this left and right margin are same*/
+text-align: left;
+/*to clear something from right or left element
+clear:right;*/
+}
+.code-img{
+    /*float is used to move image to wrapping text
+    this must use in case of wrapping rather than the original
+    positioning*/
+    float: right;
+    width: 40%;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.bt{
+    font-size: 2rem;
+    color: rgb(28, 173, 179);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.par{
+    display: inline;
+    font-size: 1.3rem;
+    text-align: center;
+   line-height: 2;
+}
+.btn {
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    text-shadow: 0px 2px 0px #666666;
+    font-family: Arial;
+    color: #05041f;
+    font-size: 22px;
+    background: #3498db;
+    padding: 5px 10px 9px 11px;
+    border: solid #31b5ae 2px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #5cc994;
+    background-image: -webkit-linear-gradient(top, #5cc994, #5cc994);
+    background-image: -moz-linear-gradient(top, #5cc994, #5cc994);
+    background-image: -ms-linear-gradient(top, #5cc994, #5cc994);
+    background-image: -o-linear-gradient(top, #5cc994, #5cc994);
+    background-image: linear-gradient(to bottom, #5cc994, #5cc994);
+    text-decoration: none;
+  }
+  .botton{
+      margin:0px 0px 20px 45%;
+  }
+.foot{
+    width:100%;
+    height: 40px;
+    background-color:#70bbb8;
+    text-align: center;
+    padding: 20px 0px;
+}
+.cr
+{
+    color:#2774cc;
+    font-size:0.85rem;
+    padding: 20px 0px;
+}
+a{
+    color:#1cc763;
+    margin: 10px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+a:hover{
+    color:#2c93d8;
+}
